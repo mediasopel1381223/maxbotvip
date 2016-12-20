@@ -325,42 +325,22 @@ This command will send text to [group_id]
 ]],
     help_text = [[
 Commands list :
-
-!kick [username|id]
-You can also do it by reply
-
-!ban [ username|id]
-You can also do it by reply
-
-!unban [id]
-You can also do it by reply
-
+اخراج از گروه
+!kick [ریپلای|ای دی]
+یکی از پیام های شخص متخلف را فروارد کرده ودستور !kick را ارسال کنید
+مسدود کردن
+!ban [ریپلای|ای دی]
+میتوانید از ریپلای استفاده کنید
+خارج کردن از  لیست افراد مسدود
+!unban [ای دی]
+میتوانید از ریپلای استفاده کنید
+لیست ممبر های گروه
 !who
-Members list
-
-!modlist
-Moderators list
-
-!promote [username]
-Promote someone
-
-!demote [username]
-Demote someone
-
-!kickme
-Will kick user
-
-!about
-Group description
-
-!setphoto
-Set and locks group photo
-
-!setname [name]
-Set group name
-
+لیست ادمین های گروه
+!modllist
+		وانین گروه		
 !rules
-Group rules
+
 
 !id
 Return group id or user id
@@ -373,9 +353,9 @@ Locks [member|name|bots|leaveing]
 
 !unlock [member|name|bots|leave]
 Unlocks [member|name|bots|leaving]
-
+افزودن قوانین
 !set rules [text]
-Set [text] as rules
+Set [text] 
 
 !set about [text]
 Set [text] as about
@@ -387,13 +367,12 @@ Returns group settings
 Create/revoke your group link
 
 !link
-Returns group link
 
+دستور دهنده ی ربات
 !owner
-Returns group owner id
-
+افزودن دستور دهنده ی ربات
 !setowner [id]
-Will set id as owner
+
 
 !setflood [value]
 Set [value] as flood sensitivity
@@ -415,9 +394,9 @@ Returns user id
 
 !log
 Will return group logs
-
+لیست افراد مسدود
 !banlist
-Will return group ban list
+
 
 » U can use both "/" and "!" 
 
